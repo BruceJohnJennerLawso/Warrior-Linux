@@ -2,6 +2,8 @@ Warrior-Linux
 =============
 
 A repository to hold all of my linux customizations,including:
+-------------
+
 
 -Geany config files
 
@@ -10,5 +12,6 @@ A repository to hold all of my linux customizations,including:
 -openbox themes
 
 -custom conky script
+
 
 more to come eventually
