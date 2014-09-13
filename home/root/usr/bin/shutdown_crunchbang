@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo 'Running Custom shutdown script'
+echo '$(date) $(/usr/bin/uptime)'
+echo 'something'
+echo "$(date) $(/usr/bin/uptime)" >> "/home/bruce/bin/uptime"
+
+exit 0

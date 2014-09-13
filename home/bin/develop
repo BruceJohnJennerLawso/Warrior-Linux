@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#!terminator --working-directory=/home/bruce/development/ignition/ignition_engine 
+#!terminator --working-directory=/home/bruce/development/lightspeed/Lightspeed-master-100414
+
+terminator --working-directory=/home/bruce/development/katarn
+
+exit 0

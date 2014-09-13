@@ -1,0 +1,37 @@
+[global_config]
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  split_vert = <Super>s
+  close_term = <Super>e
+  hide_window = <Shift><Control>a
+  split_horiz = F9
+  close_window = <Super>q
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#ff4000:#00cd00:#cdcd00:#0000cd:#95050c:#00cdcd:#faebd7:#404040:#ff4000:#00ff00:#ffff00:#0000ff:#810004:#00ffff:#ffffff"
+    background_darkness = 0.63
+    scrollback_lines = 5000
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#d8d8d8"
+    foreground_color = "#ffffff"
+    scroll_on_output = False
+    show_titlebar = False
+    color_scheme = custom
+    font = Liberation Mono 10
+    background_color = "#5e88bd"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+      profile = None
+      size = 900, 600
+[plugins]

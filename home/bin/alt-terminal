@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xterm -maximized
+
+exit 0

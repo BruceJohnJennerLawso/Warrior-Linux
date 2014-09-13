@@ -1,0 +1,88 @@
+# conky configuration
+#
+# The list of variables has been removed from this file in favour
+# of keeping the documentation more maintainable.
+# Check http://conky.sf.net for an up-to-date-list.
+#
+# For ideas about how to modify conky, please see:
+# http://crunchbanglinux.org/forums/topic/59/my-conky-config/
+#
+# For help with conky, please see:
+# http://crunchbanglinux.org/forums/topic/2047/conky-help/
+#
+# Enjoy! :)
+##############################################
+# Settings
+##############################################
+background yes
+use_xft yes
+xftfont Liberation Mono:size=10
+xftalpha 1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_transparent no
+own_window_type desktop
+#own_window_argb_visual yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 200 800
+maximum_width 240
+draw_shades yes
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color ffa000
+default_shade_color 020202
+default_outline_color ffa000
+alignment top_right
+gap_x 5
+gap_y 32
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+override_utf8_locale no
+##############################################
+#  Output
+##############################################
+TEXT
+
+SYSTEM INFO
+${hr}
+Host:$alignr$nodename
+Uptime:$alignr$uptime
+RAM:$alignr$mem/$memmax
+Swap usage:$alignr$swap/$swapmax
+Disk usage:$alignr${fs_used /}/${fs_size /}
+CPU usage:$alignr${cpu cpu0}%
+
+SHORTCUT KEYS
+${hr}
+Super+T$alignr Terminal
+Super+Z$alignr Danish-Chainsaw
+Super+F$alignr File Manager
+Super+E$alignr Text Editor
+Super+W$alignr Web Browser
+Super+N$alignr xkcd-Now
+Alt+F2$alignr Run Program
+Alt+F3$alignr Program Menu
+
+Super+Space$alignr Menu
+Super+Tab$alignr Switcher
+Super+L$alignr Lock Screen
+Super+V$alignr Volume Control
+Super+H$alignr Task Manager
+Super+X$alignr Logout
+Super+D$alignr Development Terminal
+
+TERMINAL COMMANDS
+${hr}
+cmd$alignr Commands List
+xkcd-Now$alignr xkcd-Now
+chainsaw$alignr Danish-Chainsaw
+	
+
+
+
+
+
